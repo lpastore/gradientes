@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja {
+    display: inline-flex;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.grad1 {
+    background-image: linear-gradient(to top, green, yellow, red);
+}
+
+.grad2 {
+    background-image: radial-gradient(circle, navy, pink, cyan);
+}
+
+.grad3 {
+    background-image: radial-gradient(ellipse, violet, yellow, black);
+    height: 150px;
+}
+
+.grad4 {
+    background-image: linear-gradient(to right, red, yellow, green, blue, black);
+}
+
+
+/*.translate {
+    transform: translate(30px, 20px);
+}*/
+
+.translate:hover {
+    transform: translate(30px, 20px);
+}
+
+.rotate:hover {
+    transform: rotate(20deg);
+}
+
+.skew:hover {
+    transform: skew(20deg);
+}
+
+.scale:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.tran {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.uno {
+    background-color: royalblue;
+    transition: all 2s ease;
+}
+
+.uno:hover {
+    width: 300px;
+    background-color: lime;
+}
+
+.dos {
+    background-color: aqua;
+    transition: all 2s ease;
+}
+
+.dos:hover {
+    background-color: blueviolet;
+    transform: scale(1.3, 1.3);
+}
+
+.practica {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.mas {
+    background-image: linear-gradient(to right, violet, white, black, red);
+    transition: all 2s ease;
+    height: auto;
+}
+
+.mas:hover {
+    width: 300px;
+    background-image: linear-gradient(to right, magenta, white, pink, aqua, purple);
+    height: auto;
+}
+
+.menos {
+    background-image: radial-gradient(circle, magenta, white, pink, aqua, purple);
+    transition: all 4s ease;
+}
+
+.menos:hover {
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(circle, navy, pink, cyan);
+    transform: scale(1.5, 1.3);
+}
+
+.palabra {
+    margin: 20px;
+    background-color: magenta;
+}
+
+.palabra:hover {
+    transform: skew(20deg);
+    color: white;
+    background-image: linear-gradient(to right, red, yellow, green, blue, black);
+}
